@@ -21,8 +21,7 @@ namespace Assignment1_n01455211.Controllers
         // Question 4 - Returns the string “Greetings to {id} people!” where id is an integer value.
         public string GET(int id)
          {
-         string number = id.ToString(); //converting int to string
-         string greetings = "Greetings to " + number + " people!";
+            string greetings = "Greetings to " + id + " people!";
             return greetings;
          }
         
